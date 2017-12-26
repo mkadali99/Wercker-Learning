@@ -54,7 +54,7 @@
      - script:
          name: Pull newest docker images
          code: |
-           ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST "cd ~/deployments; docker-compose -f docker-compose.yml pull"
+           ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST "cd ~/deployments; sudo docker-compose -f docker-compose.yml pull"
      - script:
          name: Stop all running containers
          code: |
