@@ -68,7 +68,7 @@
          code: |
            ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST "sudo cd ~/deployments; sudo docker-compose -f docker-compose.yml create --force-recreate"
      - script:
-         name: Start all new services/containers
+         name: Start all services/containers
          code: |
            ssh $DEV_REMOTE_USER@$DEV_REMOTE_HOST "sudo cd ~/deployments; sudo docker-compose -f docker-compose.yml start"
  
