@@ -66,7 +66,7 @@ The push to docker contains the syntax declarations on how we push the container
 The deploy section contains commands to show how we deploy the docker image. 
 
 
-To Do's in future:
+To Do's in future
 
 1. Add in ELK stack containers on the same host to monitor the application. ( A learning on how it would work )
 2. Deploying through Docker Compose. 
